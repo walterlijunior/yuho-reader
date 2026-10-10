@@ -1,0 +1,38 @@
+# Ambiente e arquivos temporários do Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Empacotamento
+build/
+dist/
+Output/
+
+# Configurações (contêm a chave da API), planilhas e downloads: nunca vão para o repositório
+config.json
+.env
+.env.*
+*.xlsx
+*.xls
+*.zip
+*.pdf
+EdinetcodeDlInfo.csv
+empresa.json
+cache/
+downloads/
+Yuho Reader/
+YuhoReader/
+
+# Material de trabalho que não faz parte do programa
+ESPECIFICACAO.md
+referencia*
+*nvidia*
+*NVIDIA*
+
+# Editor / sistema
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
